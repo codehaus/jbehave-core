@@ -1,0 +1,4 @@
+org.jbehave.core.xwiki.JBehaveParser
+org.jbehave.core.xwiki.JBehavePrintRenderer
+org.jbehave.core.xwiki.JBehavePrintRendererFactory
+org.jbehave.core.xwiki.JBehaveBlockRenderer

@@ -39,6 +39,7 @@
     <module>jbehave-pico</module>
     <module>jbehave-spring</module>
     <module>jbehave-weld</module>
+    <module>jbehave-xwiki</module>
     <module>archetypes</module>
   </modules>
 

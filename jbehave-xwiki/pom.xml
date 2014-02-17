@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.jbehave</groupId>
+		<artifactId>jbehave</artifactId>
+		<version>3.10-SNAPSHOT</version>
+	</parent>
+	<artifactId>jbehave-xwiki</artifactId>
+	<name>JBehave XWiki</name>
+	<description>Extension of JBehave Core that supports XWiki rendering</description>
+
+	<properties>
+		<xwiki.version>5.4</xwiki.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jbehave</groupId>
+			<artifactId>jbehave-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xwiki.rendering</groupId>
+			<artifactId>xwiki-rendering-syntax-wikimodel</artifactId>
+			<version>${xwiki.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xwiki.commons</groupId>
+			<artifactId>xwiki-commons-component-default</artifactId>
+			<version>${xwiki.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.xwiki.rendering</groupId>
+			<artifactId>xwiki-rendering-test</artifactId>
+			<version>${xwiki.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>

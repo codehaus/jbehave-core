@@ -1,0 +1,2 @@
+org.jbehave.core.xwiki.TestConfigurationProvider
+org.jbehave.core.xwiki.TestInjectableStepsFactoryProvider
